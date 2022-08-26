@@ -5,6 +5,8 @@ public class homework3 {
         Scanner scan = new Scanner(System.in);
         int ans;
         do {
+            // Enter number of corresponding exercise.
+            // Enter an invalid number (default 0) will terminate the programme.
             System.out.print("Exercise No. ");
             ans = scan.nextInt();
             switch (ans) {
@@ -32,7 +34,6 @@ public class homework3 {
                     break;
             }
         } while (ans >= 1 && ans <= 5);
-
     }
 
     public static void ex1() {
@@ -80,9 +81,40 @@ public class homework3 {
 
     public static void ex4() {
         System.out.println("~~~Exercise No. 4~~~");
+        System.out.print("Enter a text string: ");
+        Scanner scan = new Scanner(System.in);
+        String string = scan.nextLine();
+
+        int max=0, result=0;
+        for (int i = 0;i<string.length();i++){
+            int count = 1;
+            for (int j = i+1;j<string.length();j++)
+                if (string.charAt(i) == string.charAt(j)) count++;
+            if (max < count) {
+                max = count;
+                result = i;
+            }
+        }
+
+        System.out.printf("Character appearing the most in string: %c - Appeared %d time(s)",string.charAt(result),max);
     }
 
     public static void ex5() {
         System.out.println("~~~Exercise No. 5~~~");
+        System.out.print("Enter a text string: ");
+        Scanner scan = new Scanner(System.in);
+        String string = scan.nextLine();
+
+        int j;
+        for (int i = string.length()-1;i>=0;i--) {
+            if ((int) string.charAt(i) == 32 || i == 0) {
+                if (i==0) j=i; else j=i+1;
+                while (j < string.length() && (int) string.charAt(j) != 32) {
+                    System.out.print(string.charAt(j));
+                    j++;
+                }
+                System.out.print(" ");
+            }
+        }
     }
 }
