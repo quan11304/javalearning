@@ -56,7 +56,7 @@ public class homework3 {
         String string = scan.nextLine();
 
         System.out.print("Removing duplicate characters: ");
-        for (int i = 0;i<string.length();i++){
+        for (int i = 0;i<=string.length();i++){
             int count = 0;
             for (int j = 0;j<i;j++)
                 if (string.charAt(i) == string.charAt(j)) count++;
@@ -85,18 +85,21 @@ public class homework3 {
         Scanner scan = new Scanner(System.in);
         String string = scan.nextLine();
 
-        int max=0, result=0;
+        int max=0, result[], no=0;
         for (int i = 0;i<string.length();i++){
             int count = 1;
             for (int j = i+1;j<string.length();j++)
                 if (string.charAt(i) == string.charAt(j)) count++;
             if (max < count) {
                 max = count;
-                result = i;
+                result[no] = i;
+                no++;
             }
         }
 
-        System.out.printf("Character appearing the most in string: %c - Appeared %d time(s)",string.charAt(result),max);
+        System.out.printf("Character(s) appearing the most in string \"%s\": ",string);
+        for (int i = 0; i < no; i++) System.out.print(result[i]+" ");
+        System.out.printf("- Appeared %d time(s)",max);
     }
 
     public static void ex5() {
