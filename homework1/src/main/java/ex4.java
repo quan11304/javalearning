@@ -1,15 +1,17 @@
 import java.lang.Math;
+import java.util.Scanner;
+
 public class ex4 {
     public static void main(String[] args) {
-        int rnd = (int) Math.ceil(Math.random()*1000);
-        System.out.println("Randomly generated number is: "+rnd);
+        System.out.println("Enter a 6-digit number: ");
+        Scanner scan = new Scanner (System.in);
+        int num = scan.nextInt();
 
-        int sum = 0, temp;
-        for (int i=3;i>=0;i--){
-            temp = (int) (rnd / Math.pow(10,i));
-            rnd -= temp*Math.pow(10,i);
-            sum += temp;
+        int temp;
+        for (int i=5;i>=0;i--){
+            temp = (int) (num / Math.pow(10,i));
+            num -= temp*Math.pow(10,i);
+            System.out.print(temp+ " ");
         }
-        System.out.println(sum);
     }
 }
