@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class QLCB {
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
+        String test = scan.next();
+        System.out.println(test);
         int ans = 1;
         do {
             if (ans >= 1 && ans <= 3) {
@@ -28,7 +30,6 @@ public class QLCB {
             switch (ans) {
                 case 1:
                     System.out.println("~~~Thêm công nhân mới~~~");
-                    CanBo.CongNhan congnhan = new CanBo.CongNhan();
                     break;
                 case 2:
                     System.out.println("~~~Thêm kỹ sư mới~~~");
