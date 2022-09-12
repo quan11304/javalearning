@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7de473f-4842-48cb-a17d-6ff605503e84" name="Changes" comment="homework 5 unfinished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CongNhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KySu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework6/src/main/java/ex1/BorrowInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework6/src/main/java/ex1/LibraryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework6/src/main/java/ex1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice220909/src/main/java/practice220909.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NhanVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CanBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CanBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CongNhan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CongNhan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KySu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KySu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NhanVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NhanVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QLCB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QLCB.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +66,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
