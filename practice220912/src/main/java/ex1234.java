@@ -25,14 +25,14 @@ public class ex1234 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter an integer: ");
         String query = scan.next();
-        boolean b = Pattern.matches("[02468]",query);
+        boolean b = Pattern.matches("[02468]+",query);
         System.out.println(b);
     }
     public static void ex2() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a string of characters: ");
         String query = scan.next();
-        boolean b = Pattern.matches("[ueoai]",query);
+        boolean b = Pattern.matches("[ueoai]+",query);
         System.out.println(b);
     }
     public static void ex3() {
