@@ -6,7 +6,7 @@ public class BorrowInfo extends Student {
     String borrowdate; String returndate;
 
     public BorrowInfo(String name, int age, String inclass,
-                      int borrowid,int bookid, String borrowdate, String returndate) {
+                      int borrowid, int bookid, String borrowdate, String returndate) {
         super(name, age, inclass);
         this.borrowid = borrowid;
         this.bookid = bookid;

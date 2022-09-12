@@ -37,8 +37,8 @@ public class QLCB {
             }
         } while (ans < 1 || ans > 3); // Filter invalid input.
 
-        System.out.print("Họ và tên: "); String tempName = scan.next();
-        System.out.print("Tuổi: "); int tempAge = scan.nextInt();
+        System.out.println("Họ và tên: "); String tempName = scan.nextLine();
+        System.out.println("Tuổi: "); int tempAge = scan.nextInt();
         System.out.print("Giới tính (Nam = 1; Nữ = -1; Khác = 0): ");
         int tempGenderInt = scan.nextInt();
         String tempGender = null;
