@@ -4,10 +4,10 @@ import java.util.regex.Pattern;
 public class ex1234 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Exercise No. "); int ans = scan.nextInt();
-        int test;
+        int ans; int test;
         do {
             test = 0;
+            System.out.print("Exercise No. "); ans = scan.nextInt();
             switch (ans) {
                 case 1 -> ex1();
                 case 2 -> ex2();
@@ -32,7 +32,7 @@ public class ex1234 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a string of characters: ");
         String query = scan.next();
-        boolean b = Pattern.matches("[ueoai]+",query);
+        boolean b = Pattern.matches("[ueoaiUEOAI]+",query);
         System.out.println(b);
     }
     public static void ex3() {
@@ -59,7 +59,7 @@ public class ex1234 {
         for (int i = 1; i < array.length; i++) {
             positive = !positive;
             if (positive) {
-                if (!(array[i]>0)) test++;
+                if (!(array[i]>0)) test++; //
             }
             else {
                 if (!(array[i]<0)) test++;
@@ -67,4 +67,5 @@ public class ex1234 {
         }
         System.out.println(test == 0);
     }
+
 }

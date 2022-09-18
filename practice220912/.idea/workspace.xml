@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41aa4c2e-2701-45c2-ab4a-c850d359f34a" name="Changes" comment="done with exercise 1 - 5, exercise 6 not finished" />
+    <list default="true" id="41aa4c2e-2701-45c2-ab4a-c850d359f34a" name="Changes" comment="done with exercise 1 - 5, exercise 6 not finished">
+      <change afterPath="$PROJECT_DIR$/../homework8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/main/java/ex6/CBGV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/main/java/ex6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/main/java/ex6/Nguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ex1234.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ex1234.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +33,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="11" />
+      <option value="12" />
+      <option value="13" />
+      <option value="14" />
+      <option value="15" />
+      <option value="16" />
+    </hideBySeverity>
+  </component>
   <component name="ProjectId" id="2EfQdqKx6NJnJJl7iReKd2bIoWX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,7 +57,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Quan Hoang/Programming/Java/Projects/homework8",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662991400970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done with exercise 1 - 5, exercise 6 not finished">
+      <created>1662993534846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662993534846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
