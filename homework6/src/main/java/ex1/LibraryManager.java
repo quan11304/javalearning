@@ -26,13 +26,20 @@ public class LibraryManager {
     public static void borrowbook() {
         System.out.println("~~~Create new borrow entry (Borrow)~~~");
         Scanner scan = new Scanner(System.in);
-        System.out.print("\nName: "); String tempName = scan.next();
-        System.out.print("Age: "); int tempAge = scan.nextInt();
-        System.out.print("Class: "); String tempInclass = scan.next();
-        System.out.printf("Borrow ID: %i",++idcount); //tempBorrowid = idcount
-        System.out.print("Book ID: "); int tempBookid = scan.nextInt();
-        System.out.print("Borrow date: "); String tempBorrowdate = scan.next();
-        System.out.print("Return date: "); String tempReturndate = scan.next();
+        System.out.print("Name: ");
+        String tempName = scan.nextLine();
+        System.out.print("Age: ");
+        int tempAge = scan.nextInt();
+        System.out.print("Class: "); scan.nextLine();
+        String tempInclass = scan.nextLine();
+        System.out.printf("Borrow ID: %d\n",++idcount); //tempBorrowid = idcount.
+        // Borrow ID will be automatically created.
+        System.out.print("Book ID: ");
+        int tempBookid = scan.nextInt();
+        System.out.print("Borrow date: "); scan.nextLine();
+        String tempBorrowdate = scan.nextLine();
+        System.out.print("Return date: ");
+        String tempReturndate = scan.nextLine();
         BorrowInfo temp = new BorrowInfo(tempName, tempAge, tempInclass,
                 idcount, tempBookid, tempBorrowdate, tempReturndate);
         infoArrayList.add(temp);
@@ -42,11 +49,18 @@ public class LibraryManager {
         System.out.println("~~~Delete existing borrow entry (Return)~~~");
         Scanner scan = new Scanner(System.in);
         System.out.println("Borrow ID: "); int query = scan.nextInt();
-        infoArrayList.remove(query+1);
-        System.out.println("Borrow entry deleted. Returning to main menu...");
+        for (BorrowInfo temp: infoArrayList) {
+            if (query == temp.getBorrowid()) {
+                infoArrayList.remove(temp);
+                System.out.println("Borrow entry deleted. Returning to main menu...");
+                return;
+            }
+        }
+        System.out.println("ID not found. No entry was deleted. Returning to main menu...");
     }
     public static void displayinfo() {
         System.out.println("~~~Borrow entries information~~~");
-        
+        System.out.println(infoArrayList.toString());
+        System.out.println("All entries are displayed. Returning to main menu...");
     }
 }
