@@ -8,7 +8,8 @@ public class ex2345 {
             System.out.print("Exercise No. ");
             ans = scan.nextInt();
             if (ans >=2 && ans <=5) {
-                System.out.print("\nInput: ");
+                System.out.print("Input: ");
+                scan.nextLine();
                 input = scan.nextLine();
             }
             switch (ans) {
@@ -28,11 +29,11 @@ public class ex2345 {
         System.out.println(b);
     }
     public static void ex3(String input) {
-        boolean b = Pattern.matches("([a-zA-Z]_)",input);
+        boolean b = Pattern.matches("([a-z]_)*[a-z]",input);
         System.out.println(b);
     }
     public static void ex4(String input) {
-        boolean b = Pattern.matches("\\w",input);
+        boolean b = Pattern.matches("^(\\w)*$",input);
         System.out.println(b);
     }
     public static void ex5(String input) {
