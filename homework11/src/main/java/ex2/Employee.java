@@ -4,9 +4,7 @@ import lombok.*;
 
 import java.util.Arrays;
 
-@NoArgsConstructor
 @RequiredArgsConstructor
-@ToString
 @Setter @Getter
 public class Employee {
     protected int id;

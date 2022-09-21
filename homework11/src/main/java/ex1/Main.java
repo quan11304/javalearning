@@ -32,7 +32,7 @@ public class Main {
                 System.out.println("An error occurred. The file might have already existed.");
             }
         } catch (IOException e) {
-            System.out.println("An error occurred.");
+            System.out.printf("An error occurred. (%s)",e.getMessage());
         }
     }
 }

@@ -2,7 +2,6 @@ package ex3;
 
 import lombok.*;
 
-@NoArgsConstructor
 @RequiredArgsConstructor
 @Getter @Setter
 @ToString
