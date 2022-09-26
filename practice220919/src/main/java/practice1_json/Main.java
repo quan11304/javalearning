@@ -8,6 +8,6 @@ public class Main {
     static Gson gson = new Gson();
 
     public static void main(String[] args) {
-
+		System.out.println("Quân sửa");
     }
 }
