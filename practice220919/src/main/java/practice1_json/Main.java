@@ -8,8 +8,9 @@ public class Main {
     static Gson gson = new Gson();
 
     public static void main(String[] args) {
+		System.out.println("TienTho sửa");
+		System.out.println("TienTho sửa 3");
 		System.out.println("Quân sửa");
-		System.out.println("Quân sửa lần 2");
 		System.out.println("Quân sửa lần 3");
     }
 }
